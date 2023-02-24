@@ -1,18 +1,42 @@
- <!DOCTYPE html>
- <html>
- <head>
- <meta charset="utf-8">
- <title>mouxin</title>
-     <style media="screen">
-         * {
-                 margin: 0;
-                 padding: 0;
-         }
-     </style>
- </head>
- <body>
- </body>
-     <script type="text/javascript">
-         window.location.href = "https://space.bilibili.com/313514407"; 
-     </script>
- </html>
+<!doctype html>
+<html lang="zh_CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>mouxin!!!</title>
+	<style>
+		body{
+			background-image: url("res/background.png");
+		}
+		.block{
+			position: relative;
+			width: 200px;
+			height: 70px;
+			border: #FFF 5px solid;
+			background-color: rgb(120,140,200,0.3);
+			text-align: center;
+			line-height: 66px;
+			border-radius: 20px;
+			overflow: hidden;
+			width: 10%width;
+			margin: 0 auto;
+			top:120px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="bili" class="block">mouxin的Bilibili</div>
+</body>
+	
+<script>
+	window.onload = function(){
+		var go = document.getElementById("bili");
+		go.onclick = function(){
+			location.href = "https://space.bilibili.com/313514407"
+		}
+	}
+</script>
+	
+</html>
