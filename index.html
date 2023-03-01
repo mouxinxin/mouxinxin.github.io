@@ -9,7 +9,7 @@
 		body{
 			background-image: url("res/background.png");
 		}
-		.block{
+		.block1{
 			position: relative;
 			width: 200px;
 			height: 70px;
@@ -23,11 +23,26 @@
 			margin: 0 auto;
 			top:120px;
 		}
+		.block2{
+			position: relative;
+			width: 200px;
+			height: 70px;
+			border: #FFF 5px solid;
+			background-color: rgb(120,140,200,0.3);
+			text-align: center;
+			line-height: 66px;
+			border-radius: 20px;
+			overflow: hidden;
+			width: 10%width;
+			margin: 0 auto;
+			top:250px;
+		}
 	</style>
 </head>
 
 <body>
-	<div id="bili" class="block">mouxin的Bilibili</div>
+	<div id="bili" class="block1">mouxin的Bilibili</div>
+	<div id="musedash" class="block2">Muse Dash</div>
 </body>
 	
 <script>
@@ -35,6 +50,12 @@
 		var go = document.getElementById("bili");
 		go.onclick = function(){
 			location.href = "https://space.bilibili.com/313514407"
+		}
+	}
+	window.onload = function(){
+		var go = document.getElementById("musedash");
+		go.onclick = function(){
+			location.href = "https://musedash.moe/player/875d55f44793422194b50835f48e6400"
 		}
 	}
 </script>
