@@ -4,12 +4,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>mouxin!!!</title>
+	<title>教程页</title>
 	<style>
 		body{
 			background-image: url("res/background.png");
 		}
-		.block{
+		.block1{
 			position: relative;
 			width: 200px;
 			height: 70px;
@@ -21,14 +21,28 @@
 			overflow: hidden;
 			width: 10%width;
 			margin: 0 auto;
+			top:120px;
+		}
+		.block2{
+			position: relative;
+			width: 200px;
+			height: 70px;
+			border: #FFF 5px solid;
+			background-color: rgb(120,140,200,0.3);
+			text-align: center;
+			line-height: 66px;
+			border-radius: 20px;
+			overflow: hidden;
+			width: 10%width;
+			margin: 0 auto;
+			top:250px;
 		}
 	</style>
 </head>
 
 <body>
-	<div id="bili" class="block" style="top: 120px">mouxin的Bilibili</div>
-	<div id="musedash" class="block" style="top: 150px">Muse Dash</div>
-	<div id="jiaocheng" class="block" style="top: 180px">教程</div>
+	<div id="bili" class="block1">mouxin的Bilibili</div>
+	<div id="musedash" class="block2">Muse Dash</div>
 </body>
 	
 <script>
@@ -40,10 +54,6 @@
 		var go1 = document.getElementById("musedash");
 		go1.onclick = function(){
 			location.href = "https://musedash.moe/player/875d55f44793422194b50835f48e6400"
-		}
-		var go2 = document.getElementById("jiaocheng");
-		go2.onclick = function(){
-			location.herf = "mouxin.cc/j.html"
 		}
 	}
 </script>
